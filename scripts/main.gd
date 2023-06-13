@@ -204,11 +204,11 @@ func ADTabMenu(id : int) -> void:
 			WIN_AD_NEW.reset()
 			WIN_AD_NEW.show()
 		1:
-			consoleCommandADLocked(["Search-AdAccount", "-LockedOut"])
-		2:
 			WIN_AD.hide()
 			WIN_AD.reset()
 			WIN_AD.show()
+		2:
+			consoleCommandADLocked(["Search-AdAccount", "-LockedOut"])
 
 func AppTabMenu(id : int) -> void:
 	match id:

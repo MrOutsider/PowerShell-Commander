@@ -75,9 +75,9 @@ switch_on_hover = true
 item_count = 3
 popup/item_0/text = "New AD Account"
 popup/item_0/id = 0
-popup/item_1/text = "Show All Locked Accounts"
+popup/item_1/text = "Account Managment"
 popup/item_1/id = 1
-popup/item_2/text = "Account Managment"
+popup/item_2/text = "Show All Locked Accounts"
 popup/item_2/id = 2
 
 [node name="APPS" type="MenuButton" parent="Main_Window/VBoxContainer/HBoxContainer"]
